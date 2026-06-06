@@ -1,0 +1,1109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Playmaker//Copa do Mundo 2026//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Copa do Mundo 2026 - Guia Playmaker
+X-WR-TIMEZONE:America/Sao_Paulo
+X-WR-CALDESC:Todos os 104 jogos da Copa 2026 no horario de Brasilia\, com onde assistir no Brasil. CazeTV transmite todos os jogos de graca no YouTube. Por Playmaker.
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:-03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ae2878e6-b6e4-4d78-9d13-00fbd7482e96@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260611T160000
+DTEND;TZID=America/Sao_Paulo:20260611T180000
+SUMMARY:🇲🇽 México x África do Sul 🇿🇦
+DESCRIPTION:Grupo A · Jogo 1\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis)\, TV Globo\, SporTV\, Globoplay\, SBT e N Sports
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:9013fd77-0668-4619-b45d-199b4ab0619d@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260611T230000
+DTEND;TZID=America/Sao_Paulo:20260612T010000
+SUMMARY:🇰🇷 Coreia do Sul x República Tcheca 🇨🇿
+DESCRIPTION:Grupo A · Jogo 2\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Akron\, Zapopan
+END:VEVENT
+BEGIN:VEVENT
+UID:d121983f-b74c-4d28-8304-02346545f757@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260612T160000
+DTEND;TZID=America/Sao_Paulo:20260612T180000
+SUMMARY:🇨🇦 Canadá x Bósnia e Herzegovina 🇧🇦
+DESCRIPTION:Grupo B · Jogo 3\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:c8a5c12d-aa95-4f5a-8f0d-32609f008aa5@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260612T220000
+DTEND;TZID=America/Sao_Paulo:20260613T000000
+SUMMARY:🇺🇸 Estados Unidos x Paraguai 🇵🇾
+DESCRIPTION:Grupo D · Jogo 4\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:7ba62f64-7da3-412f-b3a5-cedf7008d7ae@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260613T220000
+DTEND;TZID=America/Sao_Paulo:20260614T000000
+SUMMARY:🇭🇹 Haiti x Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+DESCRIPTION:Grupo C · Jogo 5\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:6c137c2d-de87-4dd3-865a-e40a9dc83081@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260614T010000
+DTEND;TZID=America/Sao_Paulo:20260614T030000
+SUMMARY:🇦🇺 Austrália x Turquia 🇹🇷
+DESCRIPTION:Grupo D · Jogo 6\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1600b6-0550-4ea4-acbd-396cdf662785@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260613T190000
+DTEND;TZID=America/Sao_Paulo:20260613T210000
+SUMMARY:🇧🇷 Brasil x Marrocos 🇲🇦
+DESCRIPTION:Grupo C · Jogo 7\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis)\, TV Globo\, SporTV\, Globoplay\, SBT e N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:🇧🇷 Brasil x Marrocos 🇲🇦
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11cfac46-b27d-471d-9e1b-9aab7ad3473e@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260613T160000
+DTEND;TZID=America/Sao_Paulo:20260613T180000
+SUMMARY:🇶🇦 Catar x Suíça 🇨🇭
+DESCRIPTION:Grupo B · Jogo 8\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:f9bafa65-fcfd-4e8e-8240-424ed8e42b07@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260614T200000
+DTEND;TZID=America/Sao_Paulo:20260614T220000
+SUMMARY:🇨🇮 Costa do Marfim x Equador 🇪🇨
+DESCRIPTION:Grupo E · Jogo 9\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:75144f12-0ff5-491c-9865-2fa141524a87@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260614T140000
+DTEND;TZID=America/Sao_Paulo:20260614T160000
+SUMMARY:🇩🇪 Alemanha x Curaçao 🇨🇼
+DESCRIPTION:Grupo E · Jogo 10\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:452efdb9-509f-40c2-b15f-a4a78345d356@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260614T170000
+DTEND;TZID=America/Sao_Paulo:20260614T190000
+SUMMARY:🇳🇱 Holanda x Japão 🇯🇵
+DESCRIPTION:Grupo F · Jogo 11\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:e4d1f55e-9df0-4eba-a9c5-de0c2528884b@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260614T230000
+DTEND;TZID=America/Sao_Paulo:20260615T010000
+SUMMARY:🇸🇪 Suécia x Tunísia 🇹🇳
+DESCRIPTION:Grupo F · Jogo 12\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio BBVA\, Guadalupe
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b8ae75-bd11-4e6b-ad6e-b98f009cc005@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260615T190000
+DTEND;TZID=America/Sao_Paulo:20260615T210000
+SUMMARY:🇸🇦 Arábia Saudita x Uruguai 🇺🇾
+DESCRIPTION:Grupo H · Jogo 13\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:29e3d197-a01c-452d-81b9-da1c316d1eab@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260615T130000
+DTEND;TZID=America/Sao_Paulo:20260615T150000
+SUMMARY:🇪🇸 Espanha x Cabo Verde 🇨🇻
+DESCRIPTION:Grupo H · Jogo 14\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:8f31c005-244d-4276-9b1c-4d8b55940c49@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260615T220000
+DTEND;TZID=America/Sao_Paulo:20260616T000000
+SUMMARY:🇮🇷 Irã x Nova Zelândia 🇳🇿
+DESCRIPTION:Grupo G · Jogo 15\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:01a6ff9b-967a-4f93-8cde-126f573a5376@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260615T160000
+DTEND;TZID=America/Sao_Paulo:20260615T180000
+SUMMARY:🇧🇪 Bélgica x Egito 🇪🇬
+DESCRIPTION:Grupo G · Jogo 16\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a81517-3b65-4d5c-897e-a643143258c5@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260616T160000
+DTEND;TZID=America/Sao_Paulo:20260616T180000
+SUMMARY:🇫🇷 França x Senegal 🇸🇳
+DESCRIPTION:Grupo I · Jogo 17\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:55966789-b5b4-4ef1-887b-1bd6a97e859c@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260616T190000
+DTEND;TZID=America/Sao_Paulo:20260616T210000
+SUMMARY:🇮🇶 Iraque x Noruega 🇳🇴
+DESCRIPTION:Grupo I · Jogo 18\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:4b51574d-c15f-44ff-a033-93cf6d7739e5@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260616T220000
+DTEND;TZID=America/Sao_Paulo:20260617T000000
+SUMMARY:🇦🇷 Argentina x Argélia 🇩🇿
+DESCRIPTION:Grupo J · Jogo 19\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:109ae060-e855-4f7e-94ac-db271f0db5b2@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260617T010000
+DTEND;TZID=America/Sao_Paulo:20260617T030000
+SUMMARY:🇦🇹 Áustria x Jordânia 🇯🇴
+DESCRIPTION:Grupo J · Jogo 20\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:b2d47aa9-f08c-4ada-8d9e-15e2d22b8a63@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260617T200000
+DTEND;TZID=America/Sao_Paulo:20260617T220000
+SUMMARY:🇬🇭 Gana x Panamá 🇵🇦
+DESCRIPTION:Grupo L · Jogo 21\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:edfdcf6a-c9b2-4d43-896b-4d6e878549a3@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260617T170000
+DTEND;TZID=America/Sao_Paulo:20260617T190000
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra x Croácia 🇭🇷
+DESCRIPTION:Grupo L · Jogo 22\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:394ff6e8-8dcb-4e15-b57b-22ea0693d410@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260617T140000
+DTEND;TZID=America/Sao_Paulo:20260617T160000
+SUMMARY:🇵🇹 Portugal x RD Congo 🇨🇩
+DESCRIPTION:Grupo K · Jogo 23\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:b4843d90-07bc-4c4c-a773-d94378c2ec20@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260617T230000
+DTEND;TZID=America/Sao_Paulo:20260618T010000
+SUMMARY:🇺🇿 Uzbequistao x Colômbia 🇨🇴
+DESCRIPTION:Grupo K · Jogo 24\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:11f563a0-186b-4ad5-b4c0-69a43698f2f6@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260618T130000
+DTEND;TZID=America/Sao_Paulo:20260618T150000
+SUMMARY:🇨🇿 República Tcheca x África do Sul 🇿🇦
+DESCRIPTION:Grupo A · Jogo 25\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:b3a8109d-6bd7-45d6-a473-eced1e085a2e@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260618T160000
+DTEND;TZID=America/Sao_Paulo:20260618T180000
+SUMMARY:🇨🇭 Suíça x Bósnia e Herzegovina 🇧🇦
+DESCRIPTION:Grupo B · Jogo 26\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:82f90955-4173-4f5d-bd2e-8a5fe7d31657@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260618T190000
+DTEND;TZID=America/Sao_Paulo:20260618T210000
+SUMMARY:🇨🇦 Canadá x Catar 🇶🇦
+DESCRIPTION:Grupo B · Jogo 27\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba74954-b63e-4392-9543-f61ecb896463@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260618T220000
+DTEND;TZID=America/Sao_Paulo:20260619T000000
+SUMMARY:🇲🇽 México x Coreia do Sul 🇰🇷
+DESCRIPTION:Grupo A · Jogo 28\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Akron\, Zapopan
+END:VEVENT
+BEGIN:VEVENT
+UID:e4d62771-889e-4cc3-a0ea-8ad13e725db5@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260619T213000
+DTEND;TZID=America/Sao_Paulo:20260619T233000
+SUMMARY:🇧🇷 Brasil x Haiti 🇭🇹
+DESCRIPTION:Grupo C · Jogo 29\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis)\, TV Globo\, SporTV\, Globoplay\, SBT e N Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:🇧🇷 Brasil x Haiti 🇭🇹
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79e02c3d-d652-40c6-979c-4dd6c895129f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260619T190000
+DTEND;TZID=America/Sao_Paulo:20260619T210000
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia x Marrocos 🇲🇦
+DESCRIPTION:Grupo C · Jogo 30\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae62ba7-13e2-4e58-982d-3ed7fe92311f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260620T000000
+DTEND;TZID=America/Sao_Paulo:20260620T020000
+SUMMARY:🇹🇷 Turquia x Paraguai 🇵🇾
+DESCRIPTION:Grupo D · Jogo 31\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:9c2e83c2-b940-41ad-bea2-de86a0bc6395@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260619T160000
+DTEND;TZID=America/Sao_Paulo:20260619T180000
+SUMMARY:🇺🇸 Estados Unidos x Austrália 🇦🇺
+DESCRIPTION:Grupo D · Jogo 32\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:744b2a16-1452-4bcf-b31f-f19f4bb5a941@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260620T170000
+DTEND;TZID=America/Sao_Paulo:20260620T190000
+SUMMARY:🇩🇪 Alemanha x Costa do Marfim 🇨🇮
+DESCRIPTION:Grupo E · Jogo 33\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:adaab32d-3163-46f1-8a6e-e10fc4819b03@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260620T210000
+DTEND;TZID=America/Sao_Paulo:20260620T230000
+SUMMARY:🇪🇨 Equador x Curaçao 🇨🇼
+DESCRIPTION:Grupo E · Jogo 34\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:976d53ae-4613-4edd-9157-e3bad2abfc87@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260620T140000
+DTEND;TZID=America/Sao_Paulo:20260620T160000
+SUMMARY:🇳🇱 Holanda x Suécia 🇸🇪
+DESCRIPTION:Grupo F · Jogo 35\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7d605a-0aa5-43e6-8d31-48580a9101b1@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260621T010000
+DTEND;TZID=America/Sao_Paulo:20260621T030000
+SUMMARY:🇹🇳 Tunísia x Japão 🇯🇵
+DESCRIPTION:Grupo F · Jogo 36\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio BBVA\, Guadalupe
+END:VEVENT
+BEGIN:VEVENT
+UID:4088cb80-d55b-44c2-a6da-28a628dee5ef@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260621T190000
+DTEND;TZID=America/Sao_Paulo:20260621T210000
+SUMMARY:🇺🇾 Uruguai x Cabo Verde 🇨🇻
+DESCRIPTION:Grupo H · Jogo 37\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:15fb4a75-6149-45b6-84da-3e35a36618a1@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260621T130000
+DTEND;TZID=America/Sao_Paulo:20260621T150000
+SUMMARY:🇪🇸 Espanha x Arábia Saudita 🇸🇦
+DESCRIPTION:Grupo H · Jogo 38\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:5202cbef-d4ee-418d-9b77-f4ee05a9731a@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260621T160000
+DTEND;TZID=America/Sao_Paulo:20260621T180000
+SUMMARY:🇧🇪 Bélgica x Irã 🇮🇷
+DESCRIPTION:Grupo G · Jogo 39\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:c3bac282-c82e-4ac2-841a-88400426d38f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260621T220000
+DTEND;TZID=America/Sao_Paulo:20260622T000000
+SUMMARY:🇳🇿 Nova Zelândia x Egito 🇪🇬
+DESCRIPTION:Grupo G · Jogo 40\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:52933ad5-f6d7-4ec3-a194-d5abcc5dea14@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260622T210000
+DTEND;TZID=America/Sao_Paulo:20260622T230000
+SUMMARY:🇳🇴 Noruega x Senegal 🇸🇳
+DESCRIPTION:Grupo I · Jogo 41\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:7964ac61-6041-47aa-abb4-9d6b6d23d9de@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260622T180000
+DTEND;TZID=America/Sao_Paulo:20260622T200000
+SUMMARY:🇫🇷 França x Iraque 🇮🇶
+DESCRIPTION:Grupo I · Jogo 42\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:1398bea5-0219-4f30-8204-d97892ecdab2@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260622T140000
+DTEND;TZID=America/Sao_Paulo:20260622T160000
+SUMMARY:🇦🇷 Argentina x Áustria 🇦🇹
+DESCRIPTION:Grupo J · Jogo 43\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:3247143c-459d-43f1-b52b-6e5aca77c9ba@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260623T000000
+DTEND;TZID=America/Sao_Paulo:20260623T020000
+SUMMARY:🇯🇴 Jordânia x Argélia 🇩🇿
+DESCRIPTION:Grupo J · Jogo 44\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:3b72bd3b-458c-4995-83ff-b891b9a451d8@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260623T170000
+DTEND;TZID=America/Sao_Paulo:20260623T190000
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra x Gana 🇬🇭
+DESCRIPTION:Grupo L · Jogo 45\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:23b00c42-9f1e-41dc-a8ba-7264858d6ff4@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260623T200000
+DTEND;TZID=America/Sao_Paulo:20260623T220000
+SUMMARY:🇵🇦 Panamá x Croácia 🇭🇷
+DESCRIPTION:Grupo L · Jogo 46\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:41a1df88-d008-454d-a7fe-f6bfa7493553@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260623T140000
+DTEND;TZID=America/Sao_Paulo:20260623T160000
+SUMMARY:🇵🇹 Portugal x Uzbequistao 🇺🇿
+DESCRIPTION:Grupo K · Jogo 47\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:49fe4d8b-eeec-4b2c-b43d-6697b5a8af8b@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260623T230000
+DTEND;TZID=America/Sao_Paulo:20260624T010000
+SUMMARY:🇨🇴 Colômbia x RD Congo 🇨🇩
+DESCRIPTION:Grupo K · Jogo 48\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Akron\, Zapopan
+END:VEVENT
+BEGIN:VEVENT
+UID:dee79944-6e56-4ba1-92ca-ef3124f04452@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T210000
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia x Brasil 🇧🇷
+DESCRIPTION:Grupo C · Jogo 49\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis)\, TV Globo\, SporTV\, Globoplay\, SBT e N Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia x Brasil 🇧🇷
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8cfd19e5-3b24-4b49-8106-cc7708586dee@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T210000
+SUMMARY:🇲🇦 Marrocos x Haiti 🇭🇹
+DESCRIPTION:Grupo C · Jogo 50\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:4455cb7e-a7b3-44c2-a5b3-5e1910af8f39@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T180000
+SUMMARY:🇨🇭 Suíça x Canadá 🇨🇦
+DESCRIPTION:Grupo B · Jogo 51\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:b4db21d8-ff32-4619-a697-ee14032dd17a@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T180000
+SUMMARY:🇧🇦 Bósnia e Herzegovina x Catar 🇶🇦
+DESCRIPTION:Grupo B · Jogo 52\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:7eef60a4-d191-46ae-9c89-15f5747fdda3@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T000000
+SUMMARY:🇨🇿 República Tcheca x México 🇲🇽
+DESCRIPTION:Grupo A · Jogo 53\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:fc8058ec-1742-4b2a-9764-7db9b429ea21@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T000000
+SUMMARY:🇿🇦 África do Sul x Coreia do Sul 🇰🇷
+DESCRIPTION:Grupo A · Jogo 54\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio BBVA\, Guadalupe
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc3aa2d-0220-43ce-8936-dc1df9776f93@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T190000
+SUMMARY:🇨🇼 Curaçao x Costa do Marfim 🇨🇮
+DESCRIPTION:Grupo E · Jogo 55\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:93514485-6dc7-431b-ae0c-bb5bbc144e5c@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T190000
+SUMMARY:🇪🇨 Equador x Alemanha 🇩🇪
+DESCRIPTION:Grupo E · Jogo 56\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:b0dfca88-63d3-4f8c-8e44-5cc52ca222b3@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T220000
+SUMMARY:🇯🇵 Japão x Suécia 🇸🇪
+DESCRIPTION:Grupo F · Jogo 57\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:5b497176-b917-400f-9c1f-fc9452d38346@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T220000
+SUMMARY:🇹🇳 Tunísia x Holanda 🇳🇱
+DESCRIPTION:Grupo F · Jogo 58\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:5ca13321-1943-46c2-b4c4-5a7209957206@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T010000
+SUMMARY:🇹🇷 Turquia x Estados Unidos 🇺🇸
+DESCRIPTION:Grupo D · Jogo 59\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:acaadc7c-84ab-4152-bdee-b887e1ea0486@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T010000
+SUMMARY:🇵🇾 Paraguai x Austrália 🇦🇺
+DESCRIPTION:Grupo D · Jogo 60\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:364ab787-2849-4116-93ef-cfe20208872f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T180000
+SUMMARY:🇳🇴 Noruega x França 🇫🇷
+DESCRIPTION:Grupo I · Jogo 61\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:219adbd7-2cca-4d0c-8ef3-2ea8bc504f32@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T180000
+SUMMARY:🇸🇳 Senegal x Iraque 🇮🇶
+DESCRIPTION:Grupo I · Jogo 62\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:f85e2514-1ea3-4ba9-b190-b7ec22c82305@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T020000
+SUMMARY:🇪🇬 Egito x Irã 🇮🇷
+DESCRIPTION:Grupo G · Jogo 63\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:1a921b71-6d13-4f42-ae86-9074cfba5a79@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T020000
+SUMMARY:🇳🇿 Nova Zelândia x Bélgica 🇧🇪
+DESCRIPTION:Grupo G · Jogo 64\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d9a93f-ba62-4230-82dd-e8cd382992b6@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260626T230000
+SUMMARY:🇨🇻 Cabo Verde x Arábia Saudita 🇸🇦
+DESCRIPTION:Grupo H · Jogo 65\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:7141c163-ec29-4080-a5de-b3524571aaab@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260626T230000
+SUMMARY:🇺🇾 Uruguai x Espanha 🇪🇸
+DESCRIPTION:Grupo H · Jogo 66\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Estadio Akron\, Zapopan
+END:VEVENT
+BEGIN:VEVENT
+UID:ef694acc-b690-4513-a840-41e6a53b28eb@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T200000
+SUMMARY:🇵🇦 Panamá x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+DESCRIPTION:Grupo L · Jogo 67\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:5c179665-3d7b-4ce4-b676-560cdcd8aefd@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T200000
+SUMMARY:🇭🇷 Croácia x Gana 🇬🇭
+DESCRIPTION:Grupo L · Jogo 68\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:e2cfe1e6-2b83-4020-8641-644c730f70bb@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T010000
+SUMMARY:🇩🇿 Argélia x Áustria 🇦🇹
+DESCRIPTION:Grupo J · Jogo 69\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:7b9f4142-88af-4050-9e68-28c6efe6499e@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T010000
+SUMMARY:🇯🇴 Jordânia x Argentina 🇦🇷
+DESCRIPTION:Grupo J · Jogo 70\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:05ef5206-8779-46d6-951b-209f9a959f84@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T223000
+SUMMARY:🇨🇴 Colômbia x Portugal 🇵🇹
+DESCRIPTION:Grupo K · Jogo 71\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:41738e16-5b6a-4e4d-9a5d-92c676e5070c@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T223000
+SUMMARY:🇨🇩 RD Congo x Uzbequistao 🇺🇿
+DESCRIPTION:Grupo K · Jogo 72\nTransmissão no Brasil: CazéTV (YouTube\, 
+ grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:9eebe572-4035-472f-8ff5-85a0b3033156@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260628T160000
+DTEND;TZID=America/Sao_Paulo:20260628T180000
+SUMMARY:Vice Grupo A x Vice Grupo B
+DESCRIPTION:32-avos de final · Jogo 73\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:327f0285-9a14-472e-a2ad-a7658ed76079@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260629T173000
+DTEND;TZID=America/Sao_Paulo:20260629T193000
+SUMMARY:Vencedor Grupo E x 3o colocado (A/B/C/D/F)
+DESCRIPTION:32-avos de final · Jogo 74\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:91b6f84b-221c-423a-b26c-90f1edb0edc0@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260629T220000
+DTEND;TZID=America/Sao_Paulo:20260630T000000
+SUMMARY:Vencedor Grupo F x Vice Grupo C
+DESCRIPTION:32-avos de final · Jogo 75\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Estadio BBVA\, Guadalupe
+END:VEVENT
+BEGIN:VEVENT
+UID:333c59ba-68bb-4673-a7fe-f7b0e6b73306@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260629T140000
+DTEND;TZID=America/Sao_Paulo:20260629T160000
+SUMMARY:Vencedor Grupo C x Vice Grupo F
+DESCRIPTION:32-avos de final · Jogo 76\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:f00b547a-c397-4886-8f20-4c6d2a04bf7d@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260630T180000
+DTEND;TZID=America/Sao_Paulo:20260630T200000
+SUMMARY:Vencedor Grupo I x 3o colocado (C/D/F/G/H)
+DESCRIPTION:32-avos de final · Jogo 77\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:7bad9639-9947-4a78-9d8f-e9a330ec4802@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260630T140000
+DTEND;TZID=America/Sao_Paulo:20260630T160000
+SUMMARY:Vice Grupo E x Vice Grupo I
+DESCRIPTION:32-avos de final · Jogo 78\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:841683da-bffb-4d6f-97b2-b5feeb35f68f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260630T220000
+DTEND;TZID=America/Sao_Paulo:20260701T000000
+SUMMARY:Vencedor Grupo A x 3o colocado (C/E/F/H/I)
+DESCRIPTION:32-avos de final · Jogo 79\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:80872c73-dfcf-4560-8464-7affdfe2ed42@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260701T130000
+DTEND;TZID=America/Sao_Paulo:20260701T150000
+SUMMARY:Vencedor Grupo L x 3o colocado (E/H/I/J/K)
+DESCRIPTION:32-avos de final · Jogo 80\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:c2774145-ce2f-4b0b-95c7-351ecd5c4632@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260701T210000
+DTEND;TZID=America/Sao_Paulo:20260701T230000
+SUMMARY:Vencedor Grupo D x 3o colocado (B/E/F/I/J)
+DESCRIPTION:32-avos de final · Jogo 81\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Levi's Stadium\, Santa Clara
+END:VEVENT
+BEGIN:VEVENT
+UID:31f31149-ed4c-41bb-8ee3-5163c87d192d@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260701T170000
+DTEND;TZID=America/Sao_Paulo:20260701T190000
+SUMMARY:Vencedor Grupo G x 3o colocado (A/E/H/I/J)
+DESCRIPTION:32-avos de final · Jogo 82\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:f7143e54-604a-4377-b92d-8ed4dca4fa31@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260702T200000
+DTEND;TZID=America/Sao_Paulo:20260702T220000
+SUMMARY:Vice Grupo K x Vice Grupo L
+DESCRIPTION:32-avos de final · Jogo 83\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:0f59ff56-d72a-499b-ac67-5404230046b7@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260702T160000
+DTEND;TZID=America/Sao_Paulo:20260702T180000
+SUMMARY:Vencedor Grupo H x Vice Grupo J
+DESCRIPTION:32-avos de final · Jogo 84\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:45f8429e-3474-4ce6-98e7-d577404561aa@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260703T000000
+DTEND;TZID=America/Sao_Paulo:20260703T020000
+SUMMARY:Vencedor Grupo B x 3o colocado (E/F/G/I/J)
+DESCRIPTION:32-avos de final · Jogo 85\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:86715491-9da1-4236-9288-208d0121a2de@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260703T190000
+DTEND;TZID=America/Sao_Paulo:20260703T210000
+SUMMARY:Vencedor Grupo J x Vice Grupo H
+DESCRIPTION:32-avos de final · Jogo 86\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:5ea3945a-724d-4337-b4f7-d06d4258d95a@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260703T223000
+DTEND;TZID=America/Sao_Paulo:20260704T003000
+SUMMARY:Vencedor Grupo K x 3o colocado (D/E/I/J/L)
+DESCRIPTION:32-avos de final · Jogo 87\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:503241da-0470-4db1-a261-99b056f25d2b@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260703T150000
+DTEND;TZID=America/Sao_Paulo:20260703T170000
+SUMMARY:Vice Grupo D x Vice Grupo G
+DESCRIPTION:32-avos de final · Jogo 88\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:6100ac8c-7e77-4f7d-90d3-1bb50f3ae82c@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260704T180000
+DTEND;TZID=America/Sao_Paulo:20260704T200000
+SUMMARY:Vencedor Jogo 74 x Vencedor Jogo 77
+DESCRIPTION:Oitavas de final · Jogo 89\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Lincoln Financial Field\, Philadelphia
+END:VEVENT
+BEGIN:VEVENT
+UID:f3eef144-0c9d-490e-833c-979e64a1da1c@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260704T140000
+DTEND;TZID=America/Sao_Paulo:20260704T160000
+SUMMARY:Vencedor Jogo 73 x Vencedor Jogo 75
+DESCRIPTION:Oitavas de final · Jogo 90\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:NRG Stadium\, Houston
+END:VEVENT
+BEGIN:VEVENT
+UID:b1e276dc-0df6-4b01-9dcc-cce43e478d62@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260705T170000
+DTEND;TZID=America/Sao_Paulo:20260705T190000
+SUMMARY:Vencedor Jogo 76 x Vencedor Jogo 78
+DESCRIPTION:Oitavas de final · Jogo 91\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:MetLife Stadium\, East Rutherford
+END:VEVENT
+BEGIN:VEVENT
+UID:4ce17e74-9cfe-4aca-8427-0a1fb0deda21@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260705T210000
+DTEND;TZID=America/Sao_Paulo:20260705T230000
+SUMMARY:Vencedor Jogo 79 x Vencedor Jogo 80
+DESCRIPTION:Oitavas de final · Jogo 92\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Estadio Azteca\, Mexico City
+END:VEVENT
+BEGIN:VEVENT
+UID:87ffa4ce-3d3c-490b-84f4-c0f2da550b44@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260706T160000
+DTEND;TZID=America/Sao_Paulo:20260706T180000
+SUMMARY:Vencedor Jogo 83 x Vencedor Jogo 84
+DESCRIPTION:Oitavas de final · Jogo 93\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:92d12f5d-1412-4d78-b5bc-91adca96163e@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260706T210000
+DTEND;TZID=America/Sao_Paulo:20260706T230000
+SUMMARY:Vencedor Jogo 81 x Vencedor Jogo 82
+DESCRIPTION:Oitavas de final · Jogo 94\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Lumen Field\, Seattle
+END:VEVENT
+BEGIN:VEVENT
+UID:e1f2610d-e9dc-4f5a-8f11-b4b689a645a4@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260707T130000
+DTEND;TZID=America/Sao_Paulo:20260707T150000
+SUMMARY:Vencedor Jogo 86 x Vencedor Jogo 88
+DESCRIPTION:Oitavas de final · Jogo 95\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:78f4cbf2-0068-495a-8dc5-8cc648631771@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260707T170000
+DTEND;TZID=America/Sao_Paulo:20260707T190000
+SUMMARY:Vencedor Jogo 85 x Vencedor Jogo 87
+DESCRIPTION:Oitavas de final · Jogo 96\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:BC Place\, Vancouver
+END:VEVENT
+BEGIN:VEVENT
+UID:13b84f2a-d13f-46b1-9df5-0cb70174e52d@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260709T170000
+DTEND;TZID=America/Sao_Paulo:20260709T190000
+SUMMARY:Vencedor Jogo 89 x Vencedor Jogo 90
+DESCRIPTION:Quartas de final · Jogo 97\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Gillette Stadium\, Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:b5a1aea8-892d-45cf-a10c-7fb7fa954396@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260710T160000
+DTEND;TZID=America/Sao_Paulo:20260710T180000
+SUMMARY:Vencedor Jogo 93 x Vencedor Jogo 94
+DESCRIPTION:Quartas de final · Jogo 98\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:SoFi Stadium\, Inglewood
+END:VEVENT
+BEGIN:VEVENT
+UID:8df10210-5234-425b-8ad6-d22be01e6b20@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260711T180000
+DTEND;TZID=America/Sao_Paulo:20260711T200000
+SUMMARY:Vencedor Jogo 91 x Vencedor Jogo 92
+DESCRIPTION:Quartas de final · Jogo 99\nTransmissão no Brasil: CazéTV (Y
+ ouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N
+  Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:f84afc29-3eef-4321-b4cb-e3aa8f3e6afb@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260711T220000
+DTEND;TZID=America/Sao_Paulo:20260712T000000
+SUMMARY:Vencedor Jogo 95 x Vencedor Jogo 96
+DESCRIPTION:Quartas de final · Jogo 100\nTransmissão no Brasil: CazéTV (
+ YouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/
+ N Sports
+LOCATION:Arrowhead Stadium\, Kansas City
+END:VEVENT
+BEGIN:VEVENT
+UID:5c3b3339-a45e-4165-bb39-62f076572bb1@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260714T160000
+DTEND;TZID=America/Sao_Paulo:20260714T180000
+SUMMARY:Vencedor Jogo 97 x Vencedor Jogo 98
+DESCRIPTION:Semifinal · Jogo 101\nTransmissão no Brasil: CazéTV (YouTube
+ \, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sport
+ s
+LOCATION:AT&T Stadium\, Arlington
+END:VEVENT
+BEGIN:VEVENT
+UID:db919db4-f969-4b55-b999-40a6b3308bf2@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260715T160000
+DTEND;TZID=America/Sao_Paulo:20260715T180000
+SUMMARY:Vencedor Jogo 99 x Vencedor Jogo 100
+DESCRIPTION:Semifinal · Jogo 102\nTransmissão no Brasil: CazéTV (YouTube
+ \, grátis). Grandes jogos também na Globo/SporTV/Globoplay e SBT/N Sport
+ s
+LOCATION:Mercedes-Benz Stadium\, Atlanta
+END:VEVENT
+BEGIN:VEVENT
+UID:51786a43-b45f-46fc-b1ed-c77e1735e699@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260718T180000
+DTEND;TZID=America/Sao_Paulo:20260718T200000
+SUMMARY:Perdedor Jogo 101 x Perdedor Jogo 102
+DESCRIPTION:Disputa de 3o lugar · Jogo 103\nTransmissão no Brasil: CazéT
+ V (YouTube\, grátis). Grandes jogos também na Globo/SporTV/Globoplay e S
+ BT/N Sports
+LOCATION:Hard Rock Stadium\, Miami Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:2d942eeb-d8ee-4bf5-ac18-dd7b59f48c6f@playmaker.global
+DTSTAMP:20260604T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260719T160000
+DTEND;TZID=America/Sao_Paulo:20260719T180000
+SUMMARY:Vencedor Jogo 101 x Vencedor Jogo 102
+DESCRIPTION:Final · Jogo 104\nTransmissão no Brasil: CazéTV (YouTube\, g
+ rátis)\, TV Globo\, SporTV\, Globoplay\, SBT e N Sports
+LOCATION:MetLife Stadium\, East Rutherford
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Vencedor Jogo 101 x Vencedor Jogo 102
+END:VALARM
+END:VEVENT
+END:VCALENDAR
