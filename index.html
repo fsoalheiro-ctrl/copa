@@ -3,55 +3,97 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Copa do Mundo 2026 · Calendário Playmaker</title>
+<title>Copa do Mundo 2026 . Calendário Playmaker</title>
 <meta name="description" content="Todos os 104 jogos da Copa do Mundo 2026 no horário de Brasília, com onde assistir cada um no Brasil. Calendário gratuito por Playmaker.">
+<meta property="og:title" content="Todos os jogos da Copa, pra salvar no celular.">
+<meta property="og:description" content="104 jogos com data, horário de Brasília e onde assistir cada um no Brasil. Gratuito.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://copa.playmaker.global/">
+<meta property="og:image" content="https://copa.playmaker.global/og-copa.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Todos os jogos da Copa, pra salvar no celular.">
+<meta name="twitter:description" content="104 jogos com data, horário de Brasília e onde assistir cada um no Brasil. Gratuito.">
+<meta name="twitter:image" content="https://copa.playmaker.global/og-copa.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{--ln:#171917;--sg:#73FA79;--gg:#5BC15B;--gn:#F9F9F9;--grey:#8E918E;}
   *{box-sizing:border-box;margin:0;padding:0;}
-  body{background:var(--ln);color:var(--gn);font-family:'Inter',sans-serif;min-height:100vh;
-    display:flex;align-items:center;justify-content:center;padding:32px;position:relative;overflow-x:hidden;}
-  .glow{position:fixed;left:50%;top:30%;transform:translate(-50%,-50%);width:1100px;height:1100px;
-    background:radial-gradient(circle,rgba(40,120,55,0.4) 0%,rgba(23,25,23,0) 60%);z-index:0;pointer-events:none;}
-  .card{position:relative;z-index:1;max-width:560px;width:100%;text-align:left;}
-  .top{display:flex;align-items:center;gap:14px;margin-bottom:48px;}
-  .flag{width:30px;height:30px;}
-  .brand{font-weight:700;font-size:20px;letter-spacing:0.01em;}
-  .kicker{display:inline-block;background:var(--sg);color:var(--ln);font-weight:700;font-size:13px;
-    letter-spacing:0.18em;text-transform:uppercase;padding:9px 18px;border-radius:100px;margin-bottom:26px;}
-  h1{font-family:'Familjen Grotesk',sans-serif;font-weight:700;font-size:54px;line-height:0.98;
-    letter-spacing:-0.02em;text-transform:uppercase;margin-bottom:22px;}
+  html,body{background:var(--ln);}
+  body{font-family:'Inter',sans-serif;color:var(--gn);min-height:100vh;
+    display:flex;align-items:flex-start;justify-content:center;position:relative;overflow-x:hidden;}
+  .wrap{position:relative;width:100%;max-width:560px;min-height:100vh;padding:clamp(28px,6vw,44px);
+    display:flex;flex-direction:column;z-index:2;}
+  /* faint grid + watermark */
+  .grid{position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:linear-gradient(0deg,rgba(249,249,249,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(249,249,249,.028) 1px,transparent 1px);
+    background-size:46px 46px;}
+  .wm{position:fixed;right:-60px;bottom:-40px;width:min(58vw,360px);opacity:.05;z-index:0;pointer-events:none;}
+  .wm svg{width:100%;height:auto;display:block;transform:rotate(-6deg);}
+
+  .top{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .pill{display:inline-flex;background:var(--sg);color:var(--ln);font-weight:700;
+    font-size:clamp(11px,2.9vw,15px);letter-spacing:.16em;text-transform:uppercase;
+    padding:9px 18px;border-radius:100px;white-space:nowrap;}
+  .dates{font-weight:600;font-size:clamp(11px,2.9vw,15px);letter-spacing:.14em;text-transform:uppercase;color:rgba(249,249,249,.6);white-space:nowrap;}
+
+  .hero{flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+    padding:clamp(20px,7vw,52px) 0 clamp(16px,5vw,36px);}
+  .hero img,.hero video{width:auto;height:clamp(210px,46vw,330px);max-width:92%;object-fit:contain;display:block;}
+
+  .block{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;}
+  .eyebrow{display:flex;align-items:center;gap:clamp(12px,3vw,20px);margin-bottom:clamp(18px,4vw,26px);}
+  .eyebrow .pm-logo{width:clamp(150px,40vw,260px);height:auto;display:block;}
+  .eyebrow .pres{font-weight:400;font-size:clamp(15px,4vw,30px);color:rgba(249,249,249,.7);white-space:nowrap;}
+  h1{font-family:'Familjen Grotesk',sans-serif;font-weight:700;text-transform:uppercase;
+    font-size:clamp(38px,11.5vw,86px);line-height:.95;letter-spacing:-.03em;margin:0;}
   h1 .green{color:var(--sg);}
-  p.lead{font-size:18px;line-height:1.5;color:rgba(249,249,249,0.82);margin-bottom:14px;}
-  p.note{font-size:15px;line-height:1.5;color:var(--grey);margin-bottom:36px;}
-  .btn{display:inline-flex;align-items:center;gap:12px;background:var(--sg);color:var(--ln);
-    font-weight:700;font-size:20px;padding:18px 34px;border-radius:100px;text-decoration:none;}
-  .btn svg{display:block;}
-  .alt{display:block;margin-top:20px;font-size:15px;color:rgba(249,249,249,0.7);}
-  .alt a{color:var(--sg);text-decoration:underline;text-underline-offset:3px;}
-  .foot{margin-top:56px;font-size:13px;color:rgba(249,249,249,0.45);letter-spacing:0.04em;}
-  @media (max-width:520px){h1{font-size:40px;}}
+  .sub{font-size:clamp(15px,4vw,26px);font-weight:400;line-height:1.4;color:rgba(249,249,249,.82);
+    margin:clamp(18px,4vw,30px) 0 0 0;max-width:30em;}
+  .cta{margin-top:clamp(24px,5vw,40px);display:flex;align-items:center;gap:clamp(16px,4vw,28px);flex-wrap:wrap;}
+  .btn{display:inline-flex;align-items:center;gap:12px;background:var(--sg);color:var(--ln);text-decoration:none;
+    font-weight:700;font-size:clamp(17px,4.4vw,30px);padding:clamp(15px,3.4vw,24px) clamp(24px,5.4vw,42px);border-radius:100px;
+    transition:background .15s;}
+  .btn:hover{background:var(--gg);}
+  .btn svg{display:block;width:1.05em;height:1.05em;}
+  .url{font-weight:500;font-size:clamp(14px,3.6vw,24px);color:var(--gn);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px;}
+  .foot{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;
+    margin-top:clamp(24px,5vw,42px);padding-bottom:8px;font-size:clamp(12px,3vw,15px);letter-spacing:.06em;color:rgba(249,249,249,.45);}
+  .foot .p{width:1.5em;height:auto;opacity:.8;}
 </style>
 </head>
 <body>
-<div class="glow"></div>
-<div class="card">
+<div class="grid"></div>
+<div class="wm"><svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg"><path fill="#5BC15B" d="M178.07,77.3c-4.59-12.63-16.25-23.45-29.68-27.58l-57.76-14.44-4.88-13.41L0,0l46.5,127.76,18.99,52.24h27.87l-21.66-59.5,44.65-14.55,4.88,13.41,47.22-14.47c10.45-4.1,14.21-14.95,9.62-27.58ZM152.06,81.81l-40.45,11.11-4.88-13.4-45.19,13.06-20.87-57.29h.03l54.66,13.03,4.88,13.41,48.54,11.08c3.16.98,4.39,3.24,4.85,4.51.46,1.26.89,3.53-1.58,4.51Z"/></svg></div>
+<div class="wrap">
   <div class="top">
-    <svg class="flag" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg"><path fill="#73FA79" d="M178.07,77.3c-4.59-12.63-16.25-23.45-29.68-27.58l-57.76-14.44-4.88-13.41L0,0l46.5,127.76,18.99,52.24h27.87l-21.66-59.5,44.65-14.55,4.88,13.41,47.22-14.47c10.45-4.1,14.21-14.95,9.62-27.58ZM152.06,81.81l-40.45,11.11-4.88-13.4-45.19,13.06-20.87-57.29h.03l54.66,13.03,4.88,13.41,48.54,11.08c3.16.98,4.39,3.24,4.85,4.51.46,1.26.89,3.53-1.58,4.51Z"/></svg>
-    <span class="brand">Playmaker</span>
+    <span class="pill">Copa do Mundo 2026</span>
+    <span class="dates">11 jun a 19 jul</span>
   </div>
-  <span class="kicker">Copa do Mundo 2026</span>
-  <h1>Todos os jogos<br>no seu <span class="green">celular.</span></h1>
-  <p class="lead">Os 104 jogos da Copa com data, horário de Brasília e onde assistir cada um no Brasil.</p>
-  <p class="note">A CazéTV transmite todos de graça no YouTube. Os grandes jogos também passam na Globo, no SporTV, no SBT e no N Sports.</p>
-  <a class="btn" href="copa-2026.ics" download>
-    Baixar calendário
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#171917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg>
+  <a class="hero" href="copa-2026.ics" download aria-label="Baixar calendario">
+    <video autoplay muted loop playsinline poster="copa-emblem-poster.jpg" aria-label="FIFA World Cup 2026">
+      <source src="copa-emblem.webm" type="video/webm">
+      <source src="copa-emblem.mp4" type="video/mp4">
+      <img src="copa-emblem-poster.jpg" alt="FIFA World Cup 2026">
+    </video>
   </a>
-  <span class="alt">Abre direto no iPhone, no Google Agenda e no Outlook. <a href="copa-2026.ics">Ou clique aqui.</a></span>
-  <div class="foot">Playmaker. Sports for Brands.</div>
+  <div class="block">
+    <div class="eyebrow"><svg class="pm-logo" aria-label="Playmaker" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 826.87 180"><g fill="#F9F9F9"><path d="M240,119.57V30.69c0-.61.5-1.11,1.11-1.11h37.3c2.95,0,5.97.35,9.05,1.05,3.08.7,5.91,2.09,8.5,4.19,2.58,2.09,4.68,5.23,6.28,9.42,1.6,4.18,2.4,9.73,2.4,16.62s-.8,12.48-2.4,16.74c-1.6,4.27-3.67,7.51-6.22,9.73s-5.29,3.69-8.25,4.43c-2.95.74-5.83,1.11-8.62,1.11-1.48,0-3.2-.06-5.17-.18-1.97-.12-3.96-.31-5.97-.55-2.01-.24-3.88-.47-5.6-.68-1.12-.13-2.1-.26-2.93-.37-.67-.09-1.25.43-1.25,1.1v27.39c0,.61-.5,1.11-1.11,1.11h-16c-.61,0-1.11-.5-1.11-1.11ZM258.22,75.37c0,.61.5,1.11,1.11,1.11h16.99c2.13,0,3.96-.51,5.48-1.54,1.52-1.03,2.65-2.67,3.39-4.93.74-2.26,1.11-5.27,1.11-9.05s-.39-6.62-1.17-8.8c-.78-2.17-1.89-3.75-3.33-4.74-1.44-.99-3.14-1.48-5.11-1.48h-17.36c-.61,0-1.11.5-1.11,1.11v28.31Z"/><path d="M329.87,25.39c1.23,0,1.85.62,1.85,1.85v91.47c0,1.35-.62,1.97-1.85,1.97h-14.53c-1.23,0-1.85-.62-1.85-1.97V27.24c0-1.23.62-1.85,1.85-1.85h14.53Z"/><path d="M398.92,72.59v42.33c0,1.96-.49,3.06-2.69,3.79-8.56,1.96-19.33,2.57-27.78,2.57-18.35,0-28.01-1.96-28.26-21.16.24-16.52,8.81-20.07,25.08-20.07h15.54v-4.4c0-5.87-3.67-8.44-11.5-8.44h-22.14c-1.35,0-1.71-.37-1.71-1.84v-10.03c0-1.47.49-1.71,1.71-1.96,7.46-1.47,14.56-1.84,22.14-1.84,24.22,0,29.61,7.83,29.61,21.04ZM366.74,91.8c-6.36,0-8.56,2.08-8.56,7.34,0,5.87,2.69,7.46,10.4,7.46,2.45,0,8.69-.24,12.23-1.22v-13.58h-14.07Z"/><path d="M431.48,148.62l6.51-26.58c.17-.69-.34-1.36-1.05-1.38-3.61-.07-8.25-.44-10.78-1.54-4.94-2.16-7.88-12.38-8.87-16.26l-12.14-47.23c-.18-.7.35-1.39,1.08-1.39h16.74c.52,0,.97.36,1.08.86l10.31,44.05c.41,1.57,1.05,5.17,3.36,5.89.79.25,1.78.36,2.4.48.62.12,1.09.18,1.42.18l11.8-50.61c.12-.5.57-.86,1.08-.86h16.27c.72,0,1.25.67,1.08,1.37l-19.45,82.02c-.02.08-.05.16-.08.23l-5.58,11.51c-.19.38-.57.63-1,.63h-13.1c-.72,0-1.25-.68-1.08-1.38Z"/><path d="M481.02,119.57v-63.89c0-.61.5-1.11,1.11-1.11h13.2c.43,0,.82.25,1.01.64l2.34,4.94c.29.62,1.07.82,1.63.42,2.58-1.81,5.36-3.4,8.35-4.77,3.4-1.56,7.61-2.34,12.62-2.34,4.19,0,7.65.86,10.4,2.59,2.38,1.49,4.25,3.38,5.62,5.67.34.57,1.05.75,1.58.35,1.65-1.22,3.52-2.4,5.6-3.57,2.5-1.39,5.19-2.58,8.06-3.57,2.87-.98,5.7-1.48,8.5-1.48,5.33,0,9.54,1.01,12.62,3.02,3.08,2.01,5.23,4.84,6.46,8.5,1.23,3.65,1.85,7.94,1.85,12.86v41.73c0,.61-.5,1.11-1.11,1.11h-15.99c-.61,0-1.11-.5-1.11-1.11v-40.13c0-2.13-.39-3.9-1.17-5.29-.78-1.4-1.87-2.46-3.26-3.2s-3.08-1.11-5.05-1.11c-2.46,0-4.95.51-7.45,1.54-2.51,1.03-4.74,2.24-6.71,3.63.16.82.29,1.62.37,2.4.08.78.12,1.58.12,2.4v39.76c0,.61-.5,1.11-1.11,1.11h-16c-.61,0-1.11-.5-1.11-1.11v-40.13c0-2.13-.39-3.9-1.17-5.29-.78-1.4-1.87-2.46-3.26-3.2-1.4-.74-3.08-1.11-5.05-1.11-1.72,0-3.38.21-4.98.62s-3.12.99-4.56,1.72c-1.26.65-2.48,1.39-3.65,2.24-.3.21-.47.57-.47.93v44.22c0,.61-.5,1.11-1.11,1.11h-16c-.61,0-1.11-.5-1.11-1.11Z"/><path d="M647,73.7v41.36c0,1.91-.48,2.99-2.63,3.71-8.37,1.91-18.89,2.51-27.13,2.51-17.93,0-27.38-1.91-27.62-20.68.24-16.14,8.61-19.61,24.51-19.61h15.18v-4.31c0-5.74-3.59-8.25-11.24-8.25h-21.64c-1.31,0-1.67-.36-1.67-1.79v-9.8c0-1.43.48-1.67,1.67-1.91,7.29-1.44,14.23-1.79,21.64-1.79,23.67,0,28.93,7.65,28.93,20.56ZM615.56,92.47c-6.21,0-8.37,2.03-8.37,7.17,0,5.74,2.63,7.29,10.16,7.29,2.39,0,8.49-.24,11.95-1.19v-13.27h-13.75Z"/><path d="M658.32,119.57V26.5c0-.61.5-1.11,1.11-1.11h16c.61,0,1.11.5,1.11,1.11v49.85c0,.61.5,1.11,1.11,1.11h6.03c.38,0,.74-.19.94-.52l13.87-21.87c.2-.32.56-.52.94-.52h15.85c.87,0,1.41.96.94,1.7l-18.02,28.86c-.22.36-.23.81,0,1.17l20.03,32.68c.45.74-.08,1.69-.95,1.69h-15.87c-.38,0-.74-.2-.94-.52l-16.09-25.67c-.2-.32-.56-.52-.94-.52h-5.78c-.61,0-1.11.5-1.11,1.11v24.49c0,.61-.5,1.11-1.11,1.11h-16c-.61,0-1.11-.5-1.11-1.11Z"/><path d="M778.82,86.37v3.71c0,2.39-.72,3.23-3.83,3.23h-37.54c.24,10.76,3.11,12.67,13.51,12.67h21.16c1.19,0,1.79.6,1.79,1.79v9.92c0,1.32-.6,1.79-1.67,1.91-6.34,1.31-14.94,1.67-22.83,1.67-24.15,0-30.01-6.81-30.01-34.07s5.86-34.07,30.01-34.07,29.29,6.58,29.41,33.24ZM737.33,81.71h23.67c-.12-10.52-2.87-13.27-11.6-13.27s-11.95,2.75-12.07,13.27Z"/><path d="M824.96,53.13c1.37,0,1.91.6,1.91,2.15v11.36c0,1.19-.72,1.79-2.03,1.79h-11.24c-6.21,0-8.37.96-8.37,6.1v44.23c0,1.31-.6,1.91-1.79,1.91h-14.22c-1.2,0-1.79-.6-1.79-1.91v-48.78c0-15.06,10.76-16.86,21.64-16.86h15.9Z"/></g><path fill="#73FA79" d="M178.07,77.3c-4.59-12.63-16.25-23.45-29.68-27.58l-57.76-14.44-4.88-13.41L0,0l46.5,127.76,18.99,52.24h27.87l-21.66-59.5,44.65-14.55,4.88,13.41,47.22-14.47c10.45-4.1,14.21-14.95,9.62-27.58ZM152.06,81.81l-40.45,11.11-4.88-13.4-45.19,13.06-20.87-57.29h.03l54.66,13.03,4.88,13.41,48.54,11.08c3.16.98,4.39,3.24,4.85,4.51.46,1.26.89,3.53-1.58,4.51Z"/></svg><span class="pres">apresenta</span></div>
+    <h1>Todos os jogos<br>da Copa, pra salvar<br>no <span class="green">celular.</span></h1>
+    <p class="sub">104 jogos com data, horário de Brasília e onde assistir cada um no Brasil. Gratuito.</p>
+    <div class="cta">
+      <a class="btn" href="copa-2026.ics" download>Baixar calendário
+        <svg viewBox="0 0 24 24" fill="none" stroke="#171917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg></a>
+      <span class="url">copa.playmaker.global</span>
+    </div>
+  </div>
+  <div class="foot">
+    <span>Link na figurinha</span>
+    <svg class="p" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg"><path fill="#73FA79" d="M178.07,77.3c-4.59-12.63-16.25-23.45-29.68-27.58l-57.76-14.44-4.88-13.41L0,0l46.5,127.76,18.99,52.24h27.87l-21.66-59.5,44.65-14.55,4.88,13.41,47.22-14.47c10.45-4.1,14.21-14.95,9.62-27.58ZM152.06,81.81l-40.45,11.11-4.88-13.4-45.19,13.06-20.87-57.29h.03l54.66,13.03,4.88,13.41,48.54,11.08c3.16.98,4.39,3.24,4.85,4.51.46,1.26.89,3.53-1.58,4.51Z"/></svg>
+  </div>
 </div>
 </body>
 </html>
